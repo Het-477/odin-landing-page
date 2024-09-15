@@ -1,1 +1,3 @@
 # odin-landing-page
+
+Just a practice landing page for testing my skillz...
