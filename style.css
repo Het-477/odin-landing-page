@@ -34,10 +34,18 @@ a {
     align-items: center;
 }
 
+.header-logo img {
+    height: 100px;
+    width: 100px;
+}
+
 .header-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #f9faf8;
     font-size: 24px;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 .header-links,
