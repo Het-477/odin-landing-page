@@ -46,3 +46,66 @@ a {
     gap: 18px;
     font-size: 18px;
 }
+
+/* 
+* This section contains the Hero content of the header
+*/
+.header {
+    background-color: #1f2937;
+    /* height: 70vh; */
+}
+
+/* 
+* Hero Text & Content
+*/
+.header-hero-content-container {
+    width: 100%;
+    display: flex;
+    flex: 1;
+    padding: 10%;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: space-around; */
+}
+
+.hero-text-container {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 400px;
+    text-wrap: wrap;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+    padding-bottom: 16px;
+}
+/* 
+* Sign-up Button
+*/
+.sign-up-button button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    padding: 8px 24px 8px 24px;
+    border-radius: 8px;
+    border-style: none;
+}
+
+/* 
+* Hero Image
+*/
+.hero-image-container img {
+    height: 250px;
+    width: 400px;
+}
+
+.hero-image-container {
+    padding-left: 58px;
+}
