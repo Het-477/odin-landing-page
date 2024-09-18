@@ -1,3 +1,4 @@
 {
-    "editor.fontFamily": "JetBrains Mono Light"
+    "editor.fontFamily": "JetBrains Mono Light",
+    "files.autoSave": "afterDelay"
 }
