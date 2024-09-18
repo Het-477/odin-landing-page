@@ -60,7 +60,7 @@ a {
 */
 .header {
     background-color: #1f2937;
-    /* height: 70vh; */
+    /* width: 100%; */
 }
 
 /* 
@@ -95,6 +95,7 @@ a {
     color: #e5e7eb;
     padding-bottom: 16px;
 }
+
 /* 
 * Sign-up Button
 */
@@ -104,6 +105,7 @@ a {
     padding: 8px 24px 8px 24px;
     border-radius: 8px;
     border-style: none;
+    cursor: pointer;
 }
 
 /* 
@@ -116,4 +118,56 @@ a {
 
 .hero-image-container {
     padding-left: 58px;
+}
+
+
+/* 
+* Styling of information section 
+*/
+.info-section-container {
+    background-color: #f9faf8;
+    padding-bottom: 120px;
+   }
+
+.info-header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
+}
+
+.info-header-text {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.info-cards-content-container {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
+.info-card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    gap: 8px;
+}
+
+/* .card-image, */
+.card-image img {
+    height: 200px;
+    width: 200px;
+    border-radius: 16px;
+    border: 6px solid #3882f6;
+}
+
+.card-text {
+    text-wrap: wrap;
 }
