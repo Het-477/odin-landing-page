@@ -127,7 +127,7 @@ a {
 .info-section-container {
     background-color: #f9faf8;
     padding-bottom: 120px;
-   }
+}
 
 .info-header-container {
     display: flex;
@@ -170,4 +170,50 @@ a {
 
 .card-text {
     text-wrap: wrap;
+}
+
+/* 
+* Styling of Quote section
+*/
+.quote-section-container {
+    background-color: #e5e7eb;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text-container {
+    background-color: #c7d8f3;
+    height: 70%;
+    width: 60%;
+    padding: 48px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text-border {
+    border: 2px solid #3882f6;
+    border-left-width: 20px;
+    border-radius: 0px 48px 0px 48px;
+}
+
+.quote-text .quote {
+    color: #1f2937;
+    font-size: 36px;
+    text-wrap: wrap;
+    font-style: light italic;
+    padding-bottom: 8px;
+}
+
+.quote-credit-text {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.quote-credit-text::before {
+    content: "\2014";
 }
