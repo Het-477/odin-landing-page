@@ -255,3 +255,11 @@ a {
     font-weight: bold;
 }
 
+.footer {
+    background-color: #f9faf8;
+    padding: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
