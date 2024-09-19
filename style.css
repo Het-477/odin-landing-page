@@ -102,7 +102,7 @@ a {
 .sign-up-button button {
     background-color: #3882f6;
     color: #e5e7eb;
-    padding: 8px 24px 8px 24px;
+    padding: 8px 32px;
     border-radius: 8px;
     border-style: none;
     cursor: pointer;
@@ -257,7 +257,7 @@ a {
 
 .footer {
     background-color: #f9faf8;
-    padding: 6px;
+    padding: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
