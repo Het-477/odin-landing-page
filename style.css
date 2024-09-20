@@ -161,6 +161,7 @@ a {
     justify-content: center;
     align-items: center;
     width: 200px;
+    margin-bottom: auto;
     gap: 8px;
 }
 
