@@ -187,7 +187,7 @@ a {
     background-color: #c7d8f3;
     height: 70%;
     width: 60%;
-    padding: 48px 20px;
+    padding: 16px 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -196,8 +196,8 @@ a {
 
 .quote-text-border {
     border: 2px solid #3882f6;
-    border-left-width: 20px;
-    border-radius: 0px 48px 0px 48px;
+    border-left-width: 16px;
+    border-radius: 0px 48px 0px 32px;
 }
 
 .quote-text .quote {
