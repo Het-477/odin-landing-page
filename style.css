@@ -28,7 +28,7 @@ a {
 
 .header-logo-and-links {
     background-color: #1f2937;
-    padding: 16px;
+    padding: 8px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -97,8 +97,7 @@ a {
 
 .hero-main-text,
 .hero-secondary-text {
-    padding-bottom: 16px;
-
+    padding-bottom: 8px;
 }
 
 /* 
